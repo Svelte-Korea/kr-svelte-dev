@@ -1,5 +1,5 @@
 {
-  "name": "svelte.kr",
+  "name": "kr.svelte.dev",
   "version": "0.1.0",
   "description": "Svelte Documantation pages for Korean",
   "main": "index.js",
@@ -26,12 +26,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/beewee22/svelte.kr.git"
+    "url": "git+https://github.com/Svelte-Korea/kr.svelte.dev"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/beewee22/svelte.kr/issues"
+    "url": "https://github.com/Svelte-Korea/kr.svelte.dev/issues"
   },
   "homepage": "https://svelte.kr",
   "devDependencies": {
