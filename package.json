@@ -4,6 +4,7 @@
   "description": "Svelte Documantation pages for Korean",
   "main": "index.js",
   "scripts": {
+    "start": "npm run update-svelte | npm run build-svelte | npm run start-svetle",
     "download-svelte": "ts-node scripts/do download svelte",
     "download-sapper": "ts-node scripts/do download sapper",
     "download-svelte-native": "ts-node scripts/do download svelte-native",
