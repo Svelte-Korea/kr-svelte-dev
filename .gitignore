@@ -1,5 +1,7 @@
 .DS_Store
 
+./scripts/*.js
+
 __svelte
 __sapper
 __svelte-native
