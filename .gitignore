@@ -1,6 +1,6 @@
 .DS_Store
 
-./scripts/*.js
+scripts/*.js
 
 __svelte
 __sapper
