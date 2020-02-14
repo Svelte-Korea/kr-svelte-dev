@@ -39,6 +39,7 @@
     "typescript": "^3.7.5"
   },
   "devDependencies": {
+    "@types/node": "^13.7.1",
     "@types/shelljs": "^0.8.6",
     "node-watch": "^0.6.3",
     "nodegit": "^0.26.4",
