@@ -4,7 +4,7 @@
   "description": "Svelte Documantation pages for Korean",
   "main": "index.js",
   "scripts": {
-    "start": "cd __svelte/site && nodemon __sapper__/build/index.js",
+    "start": "cd __svelte/site && nodemon --config ../../nodemon.json __sapper__/build/index.js",
     "download-svelte": "ts-node scripts/do download svelte",
     "download-sapper": "ts-node scripts/do download sapper",
     "download-svelte-native": "ts-node scripts/do download svelte-native",

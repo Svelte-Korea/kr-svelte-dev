@@ -9,5 +9,5 @@ RUN npm i -g nodemon
 RUN npm ci
 RUN npm run update-svelte
 RUN npm run build-svelte
-EXPOSE 3000
+EXPOSE 80
 ENTRYPOINT ["npm", "start"]
