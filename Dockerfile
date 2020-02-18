@@ -4,10 +4,10 @@ RUN apk add --no-cache \
     git \
     python \
     ;
-RUN git clone https://github.com/Svelte-Korea/kr-svelte-dev.git /app
+COPY . /app
 RUN npm i -g nodemon
-RUN npm i
-RUN npm start
-RUN cd __svelte/site
-ENTRYPOINT [ "nodemon", "__sapper__/build/index.js" ]
+RUN npm ci
+RUN npm run update-svelte
+RUN npm run build-svelte
 EXPOSE 3000
+ENTRYPOINT ["npm", "start"]
